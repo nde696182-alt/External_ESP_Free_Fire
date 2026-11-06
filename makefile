@@ -46,5 +46,5 @@ after-package::
 	@rm -rf Payload
 	@mkdir -p packages
 	@mv $(APPLICATION_NAME).tipa packages/
-	@echo "[*] Success: packages/$(APPLICATION_NAME).tipa"
+	@echo "[*] Success: packages/$(APPLICATION_NAME).tipa" 
 	
